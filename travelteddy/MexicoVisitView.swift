@@ -146,7 +146,7 @@ struct MexicoVisitView: View {
                 Text("Welcome to Mexico City!").font(.title).foregroundColor(.black)
                 
                 Image("mexicocity")
-                Text("The National Museum of Anthropology: The National Museum of Anthropology is a national museum in Mexico City, Mexico. It is the largest and most visited museum in the country, as it houses many ancient indigenous treasures of the Native people that lived in Mexico before being conquered by Spanish conquistadors. The most popular exhibits include two enormous stone Olmec heads and the legendary Aztec Sun Stone.")
+                Text("The National Museum of Anthropology is a national museum in Mexico City, Mexico. It is the largest and most visited museum in the country, as it houses many ancient indigenous treasures of the Native people that lived in Mexico before being conquered by Spanish conquistadors. The most popular exhibits include two enormous stone Olmec heads and the legendary Aztec Sun Stone.")
                     
             }
             
