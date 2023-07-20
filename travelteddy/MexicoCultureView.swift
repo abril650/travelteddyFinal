@@ -9,7 +9,17 @@ import SwiftUI
 
 struct MexicoCultureView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack(alignment: .leading) {
+             Color(UIColor(red: 245/255.0, green: 222/255, blue: 179/255.0, alpha: 1))
+                  .ignoresSafeArea()
+             Image("art")
+               .resizable(resizingMode: .stretch)
+               .aspectRatio(contentMode: .fit)
+               
+               .padding(.horizontal, 5.0)
+               .ignoresSafeArea()
+       //        .resizable(.fit)
+           }
     }
 }
 
