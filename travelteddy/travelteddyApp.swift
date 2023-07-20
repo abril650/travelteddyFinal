@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@main
+
 struct travelteddyApp: App {
     var body: some Scene {
         WindowGroup {
